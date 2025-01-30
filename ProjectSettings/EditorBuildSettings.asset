@@ -8,6 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/hayag_loading_screen.unity
+    guid: c06db857e6f95024085f9f4c0c52cf5e
+  - enabled: 1
+    path: Assets/Scenes/hayag_main_menu.unity
+    guid: c61f9ec472db2814388aabd9d81d3100
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Animals.unity
+    guid: 1bf68e31c67fdc0a8b3945067d63c82b
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Items.unity
+    guid: c2dc317847f8886479bc4c3da68e7eea
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.People.unity
+    guid: e98c99095c9a8c44db2255a23e971119
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Places.unity
+    guid: 5869b36cc8cdea749a24210c9281ad39
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
