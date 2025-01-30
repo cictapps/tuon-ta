@@ -9,4 +9,7 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("hayag_main_menu");
     }
+    public void NextButton() {
+        SceneManager.LoadSceneAsync(0);  
+    }
 }
