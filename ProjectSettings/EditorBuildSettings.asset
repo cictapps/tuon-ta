@@ -32,12 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mga_duag_Colors_1.unity
     guid: f5af74098b357ae41931c6073b07ce0b
-  - enabled: 0
-    path: Assets/Scenes/mga_duag_Colors_2.unity
-    guid: 204275d3c19e47f478552d2469128e6d
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_StartGame.unity
+    guid: a8f55f9a78d4bca45a6f0cea98ebb6db
   - enabled: 1
     path: Assets/Scenes/mga_numero_isa.unity
     guid: d6c1f4e99d6eeb5428163f891139be49

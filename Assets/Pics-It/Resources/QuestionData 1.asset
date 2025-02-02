@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8dbf8086cf9a74c86b150d17bdf392, type: 3}
+  m_Name: QuestionData 1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionImage: {fileID: -9039452912817128842, guid: c5b557e5fe223d9468ae7c24532c9708,
+      type: 3}
+    answer: amu
+  - questionImage: {fileID: -3299214352633350823, guid: d6b4d8ffd96813642a9ed6013b8ce560,
+      type: 3}
+    answer: ulan
+  - questionImage: {fileID: 3085065075543349751, guid: 8f436ea69e5f57c4ebd8b75ca177906d,
+      type: 3}
+    answer: gabi
+  - questionImage: {fileID: -4159129315519697137, guid: 468c4210ef82c6745958f04f71081ad5,
+      type: 3}
+    answer: adlaw
+  - questionImage: {fileID: -1240006484774936990, guid: 50e7fddfbf9addd4ca4e965672d86a22,
+      type: 3}
+    answer: ido
+  - questionImage: {fileID: -1980105148727507076, guid: 2f7744e345c89b5458a79c4f1538e8c2,
+      type: 3}
+    answer: tasa
+  - questionImage: {fileID: 4899978440938321454, guid: 668a984337c243940a3b6cec621d64ea,
+      type: 3}
+    answer: tubig
+  - questionImage: {fileID: -1882251345414469801, guid: 32641217b8b642546973ca365b260d65,
+      type: 3}
+    answer: lata
+  - questionImage: {fileID: 895703161815515884, guid: a3ca9e7fb8d65f0478cd55011bea8660,
+      type: 3}
+    answer: yabi
+  - questionImage: {fileID: -5053689479054976512, guid: 1bdc91a4ac6ff8143a34ecad5cc78a25,
+      type: 3}
+    answer: pispis
+  - questionImage: {fileID: 2548113846843592164, guid: 54b7c3d3010416040921e5dccc44e266,
+      type: 3}
+    answer: husay
+  - questionImage: {fileID: 4048578000007926147, guid: 1b79822e0a6dd5343857edc142654563,
+      type: 3}
+    answer: dagat
+  - questionImage: {fileID: -8410290913856700417, guid: 9307f4bde153540438b969ec2f461388,
+      type: 3}
+    answer: kanon
+  - questionImage: {fileID: -8116227073540331523, guid: 095d772d70f3aec4685021f2982849fc,
+      type: 3}
+    answer: mani
+  - questionImage: {fileID: 6086273932892468246, guid: cc10fe734b57aff47b4ee81a05d47e53,
+      type: 3}
+    answer: bukid
+  - questionImage: {fileID: -4113468768431687845, guid: a362356b8aa727d45979bb7fa887fc09,
+      type: 3}
+    answer: karton
+  - questionImage: {fileID: -3253362545074174388, guid: 781ea54db92e7fb4fbc8f7357c46e486,
+      type: 3}
+    answer: katre
+  - questionImage: {fileID: 6914482616903518766, guid: 45e640aecc5526a4eaba48e6b82aa966,
+      type: 3}
+    answer: yuhom
+  - questionImage: {fileID: -7952975438727053248, guid: 3d8d1b6cab6e69b42a220fc0f619d217,
+      type: 3}
+    answer: baroto
+  - questionImage: {fileID: -2299608338929048149, guid: cdb41c2a638a3794c81c12a1e19dbe82,
+      type: 3}
+    answer: hilamon
