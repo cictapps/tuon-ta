@@ -6,8 +6,98 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 4466de61a02facd06951a85aa3963db3
+  - enabled: 1
+    path: Assets/Scenes/hayag_loading_screen.unity
+    guid: c06db857e6f95024085f9f4c0c52cf5e
+  - enabled: 1
+    path: Assets/Scenes/hayag_main_menu.unity
+    guid: c61f9ec472db2814388aabd9d81d3100
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Animals.unity
+    guid: 1bf68e31c67fdc0a8b3945067d63c82b
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Items.unity
+    guid: c2dc317847f8886479bc4c3da68e7eea
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.People.unity
+    guid: e98c99095c9a8c44db2255a23e971119
+  - enabled: 1
+    path: Assets/Scenes/hayag_QandA.Places.unity
+    guid: 5869b36cc8cdea749a24210c9281ad39
+  - enabled: 1
+    path: Assets/Scenes/mga_duag_Start.unity
+    guid: 4da299a22fbb94e96bee32cfedbf2688
+  - enabled: 1
+    path: Assets/Scenes/mga_duag_Colors_1.unity
+    guid: f5af74098b357ae41931c6073b07ce0b
+  - enabled: 0
+    path: Assets/Scenes/mga_duag_Colors_2.unity
+    guid: 204275d3c19e47f478552d2469128e6d
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_isa.unity
+    guid: d6c1f4e99d6eeb5428163f891139be49
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_duha.unity
+    guid: 6aa714e0c24b59444a24b2dfc30f05a3
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_tatlo.unity
+    guid: 4db88f8f137fcc44abf55da21f055016
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_apat.unity
+    guid: 1904bb98c064de841a504f51441f447b
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_lima.unity
+    guid: 67662e20922456440855d330b3904dbc
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_anum.unity
+    guid: b9764989775ed934c9dbbd9da7ff0d30
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_pito.unity
+    guid: 257d61adfbb6d8942b2a2b7fe5fe2b85
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_walo.unity
+    guid: 3aee34af6633c4d428467acbc546b173
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_siam.unity
+    guid: 9993a30a1c7158e498d14e37542fd547
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_napulo.unity
+    guid: 1966dc9fc6ae32d4688ceae120740f2f
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game1.unity
+    guid: 4d585b8f834a110429db2d5a9ae1d778
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game2.unity
+    guid: e189427742c7b5641af3ab406cab9a46
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game3.unity
+    guid: 8c102cdb89b513e42a9a543680382bd1
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game4.unity
+    guid: bd6abedeb478dd7458472098e600cc93
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game5.unity
+    guid: daa8f4ec1446cc6478f06ce87e460133
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game6.unity
+    guid: fd51ed04c10580c478b2a16ba1b32753
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game7.unity
+    guid: 881a2f25247c91f459ae2d319a8e77cd
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game8.unity
+    guid: 50c295da5157fd94f814abcc4ccf3007
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game9.unity
+    guid: 92cab7908286cd0408a4f1c7302e3ded
+  - enabled: 1
+    path: Assets/Scenes/mga_numero_Game10.unity
+    guid: 88aab21001c22c74fa43beb90fc4b35a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
