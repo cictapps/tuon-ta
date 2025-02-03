@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
+    path: Assets/Scenes/MasterHomeScene.unity
     guid: 4466de61a02facd06951a85aa3963db3
   - enabled: 1
     path: Assets/Scenes/hayag_loading_screen.unity
@@ -95,6 +95,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mga_numero_Game10.unity
     guid: 88aab21001c22c74fa43beb90fc4b35a
+  - enabled: 1
+    path: Assets/Scenes/MasterGamesScene.unity
+    guid: 4188017c14701030485e2919175503a7
+  - enabled: 1
+    path: Assets/Scenes/MasterHandsScene.unity
+    guid: a4c47b68cadd7ca8cac2e61c7cdbd8b5
+  - enabled: 1
+    path: Assets/Scenes/MasterLegendsScene.unity
+    guid: 7bead1f0e3454bf8ebfe0b5b96d81962
+  - enabled: 1
+    path: Assets/Scenes/MasterMythsScene.unity
+    guid: 1776a39d7644e4faeadc214b3191f29e
+  - enabled: 1
+    path: Assets/Scenes/MasterLettersNumbersScene.unity
+    guid: 7fcee2e18b5be6efd8ea0769de282b69
+  - enabled: 1
+    path: Assets/Scenes/MasterPoemsScene.unity
+    guid: 2875fbbb90d4d3c8a9162ed87ca57614
+  - enabled: 1
+    path: Assets/Scenes/MasterSongsScene.unity
+    guid: 04a1eabb1cfc357f1a86004f3734d9af
+  - enabled: 1
+    path: Assets/Scenes/MasterStoriesScene.unity
+    guid: 3171d45b5cb4a4217be8694f795addb2
   m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: df8d94146a5495882bd9505dbe468f24, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
