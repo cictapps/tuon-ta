@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 [CreateAssetMenu(fileName = "Question", menuName = "ScriptableObjects/Question", order = 1)]
-public class QuestionData : ScriptableObject
+public class TriviaQuestionData : ScriptableObject
 {
     public Texture QuestionImage;
     public string question;

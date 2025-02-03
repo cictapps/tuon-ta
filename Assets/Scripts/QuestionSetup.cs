@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class QuestionSetup : MonoBehaviour
 {
-    [SerializeField] private List<QuestionData> questions;
+    [SerializeField] private List<TriviaQuestionData> questions;
     [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private TextMeshProUGUI categoryText;
     [SerializeField] private AnswerButton[] answerButtons;
@@ -26,7 +26,7 @@ public class QuestionSetup : MonoBehaviour
 
     private class QuestionState
     {
-        public QuestionData question;
+        public TriviaQuestionData question;
         public bool isAnswered;
         public bool isCorrect;
         public int selectedAnswerIndex;
@@ -55,7 +55,7 @@ public class QuestionSetup : MonoBehaviour
 
     private void GetQuestionAssets()
     {
-        questions = new List<QuestionData>(Resources.LoadAll<QuestionData>("Questions"));
+        questions = new List<TriviaQuestionData>(Resources.LoadAll<TriviaQuestionData>("Questions"));
         Debug.Log("Number of questions loaded: " + questions.Count);
     }
 
@@ -84,7 +84,7 @@ public class QuestionSetup : MonoBehaviour
         }
 
         var currentState = questionStates[currentQuestionIndex];
-        QuestionData currentQuestion = currentState.question;
+        TriviaQuestionData currentQuestion = currentState.question;
 
         questionText.text = currentQuestion.question;
         categoryText.text = currentQuestion.category;

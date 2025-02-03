@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
-public class QuizManager : MonoBehaviour
+public class QuizManagerB : MonoBehaviour
 {
     public Image quizImage;
     public Button option1Button;
@@ -12,13 +13,11 @@ public class QuizManager : MonoBehaviour
 
     public Image correctAnswerPopup;
     public Image wrongAnswerPopup;
-    public AudioSource audioSource;
     public AudioClip correctAnswerSound;
     public AudioClip wrongAnswerSound;
 
     public Text scoreText; // Reference to the score UI Text
 
-    private int score = 0; // Initialize score to 0
     private bool isProcessingAnswer = false; // Flag to prevent multiple question loads
 
     [System.Serializable]
@@ -28,11 +27,15 @@ public class QuizManager : MonoBehaviour
         public string option1;
         public string option2;
         public int correctOption; // 1 or 2
+
     }
 
     public QuizData[] quizDataArray;
-    private int currentQuestionIndex = 0;
     private bool quizComplete = false;
+    private int currentQuestionIndex;
+
+    private AudioSource audioSource;
+    private string score;
 
     void Start()
     {
@@ -83,7 +86,6 @@ public class QuizManager : MonoBehaviour
             return;
         }
 
-        Debug.Log("Loading question at index " + currentQuestionIndex);
         QuizData currentQuestion = quizDataArray[currentQuestionIndex];
 
         if (currentQuestion != null)
@@ -147,9 +149,9 @@ public class QuizManager : MonoBehaviour
 
     private void NextQuestion()
     {
-        currentQuestionIndex++;
+        this.currentQuestionIndex++;
 
-        if (currentQuestionIndex >= quizDataArray.Length)
+        if (this.currentQuestionIndex >= quizDataArray.Length)
         {
             quizComplete = true;
             Debug.Log("Quiz Complete!");

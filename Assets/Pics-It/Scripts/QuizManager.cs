@@ -202,7 +202,7 @@ public class QuizManager : MonoBehaviour
 }
 
 [System.Serializable]
-public class QuestionData
+public class QuestionDataImage
 {
     public Sprite questionImage;
     public string answer;
