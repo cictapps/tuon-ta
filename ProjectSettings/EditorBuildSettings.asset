@@ -119,6 +119,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MasterStoriesScene.unity
     guid: 3171d45b5cb4a4217be8694f795addb2
+  - enabled: 1
+    path: Assets/Scenes/VideoPlayers/VideoPlayerTemplate.unity
+    guid: 626946b10813554218108208712fdf26
+  - enabled: 1
+    path: Assets/Scenes/VideoPlayers/VideoPlayerDamang.unity
+    guid: 8e17883d74e731c2098b7e280a1c5377
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: df8d94146a5495882bd9505dbe468f24, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

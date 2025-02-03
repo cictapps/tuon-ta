@@ -2630,7 +2630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MGA LETRA, NUMBER, KBP
+  m_text: MGA LETRA, NUMERO, KBP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fd77fdd044aec372bba39c6a53568956, type: 2}
   m_sharedMaterial: {fileID: 2502170320689116095, guid: fd77fdd044aec372bba39c6a53568956, type: 2}

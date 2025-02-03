@@ -21,6 +21,12 @@ public class MasterNavigator : MonoBehaviour
         SceneManager.LoadScene("MasterHomeScene");
     }
 
+    public void GoToGamesMenu()
+    {
+        // Load the main menu scene
+        SceneManager.LoadScene("MasterGamesScene");
+    }
+
     // Update is called once per frame
     void Update()
     {
