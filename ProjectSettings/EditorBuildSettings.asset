@@ -137,6 +137,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VideoPlayers/VideoPlayerTagipusuon.unity
     guid: 4881f5c144e1d19f6a8fe4ce2dcf0dd7
+  - enabled: 1
+    path: Assets/Scenes/pakta_ang_laragway_Main.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/pakta_ang_laragway_InstructionScene.unity
+    guid: b851d850027676447aedd898dff68af3
+  - enabled: 1
+    path: Assets/Scenes/pakta_ang_laragway_FinishedScene.unity
+    guid: 958d8027d8ea5db4aae673247f8bb5cb
+  - enabled: 1
+    path: Assets/Scenes/pakta_ang_laragway_A.unity
+    guid: 120ec1e9a75a27c4691c0c022d597233
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: df8d94146a5495882bd9505dbe468f24, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
