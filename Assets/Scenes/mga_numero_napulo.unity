@@ -1137,7 +1137,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 11
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: mga_numero_siam
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &873760453
@@ -2042,7 +2042,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 13
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MasterGamesScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1736605565
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2720535173406242035, guid: 7921b2b91207e004083978796f3c26f6, type: 3}
+  m_Sprite: {fileID: 8102358098348255977, guid: b214f663cd27db5438c6e4f3f96a9c5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -1401,7 +1401,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 11
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: mga_numero_walo
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1241558587
@@ -2145,7 +2145,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 13
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: mga_numero_napulo
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2052501908
