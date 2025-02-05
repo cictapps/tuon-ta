@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "/home/user/Dev/tuon-ta/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "/home/user/Dev/tuon-ta/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/CMakeLists.txt",
+    "/home/user/Dev/tuon-ta/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/user/Apps/unity/6000.0.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/user/Dev/tuon-ta/.utmp/RelWithDebInfo/4o2k5n68/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/user/Apps/unity/6000.0.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/user/Dev/tuon-ta/.utmp/RelWithDebInfo/4o2k5n68/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "game::@d02bb112ea9f9c2ed29f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "game",
+      "output": "/home/user/Dev/tuon-ta/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4o2k5n68/obj/arm64-v8a/libgame.so",
+      "runtimeFiles": []
+    },
+    "swappywrapper::@7e25bd1f32ce224db4e9": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "swappywrapper",
+      "output": "/home/user/Dev/tuon-ta/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4o2k5n68/obj/arm64-v8a/libswappywrapper.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/user/Apps/unity/6000.0.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/user/Apps/unity/6000.0.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

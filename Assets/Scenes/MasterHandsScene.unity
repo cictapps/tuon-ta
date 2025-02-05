@@ -342,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 206, y: -91.84}
-  m_SizeDelta: {x: 366.9, y: 113.99}
+  m_AnchoredPosition: {x: 206, y: -81.604996}
+  m_SizeDelta: {x: 366.9, y: 93.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &282123685
 MonoBehaviour:
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44
+  m_fontSize: 40.8
   m_fontSizeBase: 87.19
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -995,7 +995,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 206, y: -176}
+  m_AnchoredPosition: {x: 206, y: -130}
   m_SizeDelta: {x: 295.12, y: 31.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814223676
