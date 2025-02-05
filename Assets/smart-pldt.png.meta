@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      smart-pldt_0: 4534881799529846727
+      smart-pldt_1: -1456776552261034665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

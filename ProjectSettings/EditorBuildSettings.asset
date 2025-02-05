@@ -149,7 +149,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pakta_ang_laragway_A.unity
     guid: 120ec1e9a75a27c4691c0c022d597233
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerKhanlaon.unity
+    guid: 24895acff4fd4ed62b9c936a133ab950
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerEsulat.unity
+    guid: 8cb39e795181726ee8db1dd650f88909
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerNumero.unity
+    guid: 4632444cb213c68fa8eb79ad2f8c7144
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: df8d94146a5495882bd9505dbe468f24, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

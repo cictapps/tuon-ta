@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tuon_Ta_Icon_0: -5384968602321283972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
