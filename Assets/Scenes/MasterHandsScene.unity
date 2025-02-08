@@ -533,7 +533,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: Juan's Jeepney
@@ -1643,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: This is a Farm
