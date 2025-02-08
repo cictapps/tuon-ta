@@ -311,7 +311,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: The Little Spider
@@ -565,7 +565,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: A Song About Crabs
@@ -1025,7 +1025,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080810442}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6fa1b100fdf228f409e6e38fe3af3ba7, type: 3}
@@ -1145,7 +1145,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: My Heart
