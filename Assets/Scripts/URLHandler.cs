@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class URLHandler : MonoBehaviour
 {
+    [SerializeField] private string url;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,5 +13,10 @@ public class URLHandler : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void OpenURL()
+    {
+        Application.OpenURL(url);
     }
 }
