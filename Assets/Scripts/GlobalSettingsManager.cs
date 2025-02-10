@@ -56,17 +56,8 @@ public class GlobalSettingsManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
 
-                if (PlayerPrefs.GetInt("BackgroundMusic") == 1)
+        if (PlayerPrefs.GetInt("BackgroundMusic") == 1)
         {
             backgroundMusic.mute = false;
             Debug.Log("Background Music is not muted");
