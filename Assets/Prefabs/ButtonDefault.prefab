@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 5063314140735510648}
   m_Layer: 5
   m_Name: Audio Source
-  m_TagString: Untagged
+  m_TagString: sfx
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
