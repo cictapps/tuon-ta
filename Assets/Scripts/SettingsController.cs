@@ -23,12 +23,12 @@ public class SettingsController : MonoBehaviour
         if (toggleIsOn == 0)
         {
             toggleIsOn = 1;
-            settingsGroup.DOMove(new Vector2(0, 0), 1f);
+            settingsGroup.DOMove(new Vector2(0, 0), 0.2f);
         }
         else
         {
             toggleIsOn = 0;
-            settingsGroup.DOMove(new Vector2(0, -522), 1f);
+            settingsGroup.DOMove(new Vector2(0, -522), 0.2f);
         }
     }
 }
