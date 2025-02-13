@@ -15,5 +15,6 @@ MonoBehaviour:
   letterQuestion: Uu
   phonicQuestion: /u/
   firstOptionImage: {fileID: 21300000, guid: 17769278920644140b2e24e8408e4934, type: 3}
-  secondOptionImage: {fileID: 21300000, guid: 428bc52133d103644995e8bfed32ff71, type: 3}
+  secondOptionImage: {fileID: -1066292595799283474, guid: 0237e7ead3910f934814bf10bf37be49, type: 3}
   correctOptionIndex: 1
+  feedbackImage: {fileID: 0}
