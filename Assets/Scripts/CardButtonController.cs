@@ -8,7 +8,7 @@ public class CardButtonController : MonoBehaviour
     [SerializeField] private string cardName;
     [SerializeField] private string cardDescription;
 
-    [SerializeField] private string cardDestination;
+    //[SerializeField] private string cardDestination;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,7 +17,7 @@ public class CardButtonController : MonoBehaviour
         cardTransform.Find("CardThumb").GetComponent<UnityEngine.UI.Image>().sprite = cardThumbnail;
         cardTransform.Find("CardName").GetComponent<TextMeshProUGUI>().text = cardName;
         cardTransform.Find("CardDescription").GetComponent<TextMeshProUGUI>().text = cardDescription;       
-        this.GetComponent<Button>().onClick.AddListener(()=>this.GetComponent<MasterNavigator>().NavigateTo(cardDestination));
+        //this.GetComponent<Button>().onClick.AddListener(()=>this.GetComponent<MasterNavigator>().NavigateTo(cardDestination));
 
     }
 

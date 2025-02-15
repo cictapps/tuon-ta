@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0237e7ead3910f934814bf10bf37be49
+guid: d97b69638aa803c4e84f4202122f55a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1066292595799283474
-    second: Uga_0
+      213: -7646310552002224853
+    second: Maral Kawaii_0
+  - first:
+      213: 1306429482754597033
+    second: Maral Kawaii_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Uga_0
+      name: Maral Kawaii_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 187
-        width: 462
-        height: 509
+        x: 0
+        y: 41
+        width: 367
+        height: 258
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee821c89884c331f0800000000000000
-      internalID: -1066292595799283474
+      spriteID: b2d16999019d2e590800000000000000
+      internalID: -7646310552002224853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maral Kawaii_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a06fab51be512210800000000000000
+      internalID: 1306429482754597033
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Uga_0: -1066292595799283474
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
