@@ -196,7 +196,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -525,14 +525,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: VideoPlayerUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1007716922291866362, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219381171738998276, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 860
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531940348795503609, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4774189010727295216, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MasterHandsScene
       objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_Url
+      value: https://tuon-ta.netlify.app/videos/hands/ini_ang_uma.webm
+      objectReference: {fileID: 0}
+    - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 6c193749037a69310b5679e60a826e6f, type: 3}
+    - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_TargetCamera
       value: 
@@ -631,10 +651,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8048263373581697288, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8136289925269561943, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -242
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2063434346625249780, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}

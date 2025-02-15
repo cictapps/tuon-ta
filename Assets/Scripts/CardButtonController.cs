@@ -8,7 +8,7 @@ public class CardButtonController : MonoBehaviour
     [SerializeField] private string cardName;
     [SerializeField] private string cardDescription;
 
-    //[SerializeField] private string cardDestination;
+    [SerializeField] private string cardDestination;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

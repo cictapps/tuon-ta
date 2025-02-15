@@ -446,10 +446,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: VideoPlayerUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1007716922291866362, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 5e03e1fffd7ce3aeca11a504f61f71c1, type: 3}
+    - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_TargetCamera
       value: 
@@ -545,6 +553,10 @@ PrefabInstance:
     - target: {fileID: 6034597429277136525, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048263373581697288, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
