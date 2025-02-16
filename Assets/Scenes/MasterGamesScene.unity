@@ -1738,6 +1738,10 @@ PrefabInstance:
       value: Pakta ang Laragway
       objectReference: {fileID: 0}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
+      propertyPath: cardThumbnail
+      value: 
+      objectReference: {fileID: -2135765064198747577, guid: 0ca43be60102c7c44993c8d1379812de, type: 3}
+    - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: Guessing Game
       objectReference: {fileID: 0}

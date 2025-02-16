@@ -311,7 +311,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
+      objectReference: {fileID: 4547882219381249153, guid: 184ed7adf9ef62a44aad5db1c9424a95, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: The Little Spider
@@ -597,7 +597,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
+      objectReference: {fileID: 4547882219381249153, guid: 184ed7adf9ef62a44aad5db1c9424a95, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: A Song About Crabs
@@ -1214,7 +1214,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: 8248997169299503723, guid: 6e67426961ae71a28bb61b44219aaf6f, type: 3}
+      objectReference: {fileID: 4547882219381249153, guid: 184ed7adf9ef62a44aad5db1c9424a95, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: My Heart

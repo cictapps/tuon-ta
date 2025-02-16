@@ -349,7 +349,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 1637217582521059063, guid: cfe9bc3d89e1f57438089a6bf03d18a5, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: Part 1 video of The Ant and the Grasshopper
@@ -777,7 +777,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 1637217582521059063, guid: cfe9bc3d89e1f57438089a6bf03d18a5, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: The Lion and the Rat
@@ -927,7 +927,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 1637217582521059063, guid: cfe9bc3d89e1f57438089a6bf03d18a5, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: Part 1 video of The Ant and the Grasshopper
@@ -1092,7 +1092,7 @@ PrefabInstance:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
       value: 
-      objectReference: {fileID: -2135765064198747577, guid: a335b4322ca346c92b2cdf9f518a81cd, type: 3}
+      objectReference: {fileID: 1637217582521059063, guid: cfe9bc3d89e1f57438089a6bf03d18a5, type: 3}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardDescription
       value: Like the Ant
