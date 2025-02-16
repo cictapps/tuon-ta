@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      poems-thumb_0: 2247408284320623655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

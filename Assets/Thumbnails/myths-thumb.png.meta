@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      myths-thumb_0: 6117813229031016210
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
