@@ -143,8 +143,6 @@ PlayerSettings:
   bundleVersion: 1.0.5
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  - {fileID: 260683104706662188, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}
-  - {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
