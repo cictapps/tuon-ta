@@ -196,6 +196,11 @@ public class MasterVideoController : MonoBehaviour
         }
 
         videoPlayer.Stop();
+        videoPlayer.time = 0;
+        Seek(0);
+        playButton.interactable = true;
+        stopButton.interactable = false;
+        pauseButton.interactable = false;
     }
 
     public void Restart()

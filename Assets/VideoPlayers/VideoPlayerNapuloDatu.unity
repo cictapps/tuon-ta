@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_Url
-      value: https://tuon-ta.netlify.app/videos/legends/ang_ginsuguran_sang_kalibutan.webm
+      value: https://tuon-ta.netlify.app/videos/myths/ang_napulo_ka_datu_sa_borneo.webm
       objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_VideoClip

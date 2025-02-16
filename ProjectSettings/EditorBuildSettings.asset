@@ -188,6 +188,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VideoPlayers/VideoPlayerSubayTibaklaP2.unity
     guid: 42e9fe5e4e1defe4bb97acf39f1d1e29
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerAlimodian.unity
+    guid: a4b2aa9f07392514fab009900644f389
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerBadiangan.unity
+    guid: ef0ff7aff34f5934f9b23cb5b15b07ff
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerBugtaw.unity
+    guid: 37f98d205aac4ae40bca256f1c10316b
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerDuenas.unity
+    guid: bfa3755bfaef39743a9fda44bb4f690b
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerGinsuguran.unity
+    guid: e4701018c4599434f8740b0149f0c5ea
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerHangin.unity
+    guid: 4d2bf38ecc4e82a48bc153ef29b54bf4
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerHinilawod.unity
+    guid: 959e8aa79115c2a65b36869c0f7f1f0f
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerJaro.unity
+    guid: 7566a072c66f7f8448777c90a046c58e
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerLamigas.unity
+    guid: bfd8f78d79c09c346bf16b87bf8bff62
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerNapuloDatu.unity
+    guid: edcc4ca8535cd9a479b280ccf84f6271
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerPaghigugma.unity
+    guid: d879fb32614777f45bb250486a8b1a38
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerPuluy-an.unity
+    guid: 83f8ebb5a051e0848aaef330d3aa99f4
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}

@@ -533,6 +533,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4774189010727295216, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: MasterStoriesScene
+      objectReference: {fileID: 0}
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_Url
       value: https://tuon-ta.netlify.app/videos/stories/ang_leon_kag_ang_ilaga.webm
