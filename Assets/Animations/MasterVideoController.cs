@@ -124,6 +124,7 @@ public class MasterVideoController : MonoBehaviour
         isDone = true;
         yaySound.Play();
         awardStar.SetActive(true);
+        PlayerPrefs.SetInt("stars", PlayerPrefs.GetInt("stars") + 1);
     }
 
     private void FrameReady(VideoPlayer source, long frameIdx)
@@ -140,8 +141,7 @@ public class MasterVideoController : MonoBehaviour
     private void Started(VideoPlayer source)
     {
         Debug.Log("Video Player Started");
-        awardStar.SetActive(false);
-        PlayerPrefs.SetInt("stars", PlayerPrefs.GetInt("stars") + 1);
+        awardStar.SetActive(false);        
     }
 
     private void Start()
