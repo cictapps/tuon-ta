@@ -1,18 +1,22 @@
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
+using TMPro;
 
 public class MasterVideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public Slider slider;
     bool isDone = false;
+    public TextMeshProUGUI messageText;
 
     public AudioSource yaySound;
 
     public Button playButton;
     public Button pauseButton;
     public Button stopButton;
+
+    public GameObject awardStar;
 
     public bool IsPlaying
     {
@@ -105,6 +109,7 @@ public class MasterVideoController : MonoBehaviour
     private void ErrorReceived(VideoPlayer source, string message)
     {
         Debug.Log("Video Player Error: " + message);
+        messageText.text = message;
     }
 
     private void PrepareCompleted(VideoPlayer source)
@@ -118,6 +123,7 @@ public class MasterVideoController : MonoBehaviour
         Debug.Log("Video Player Loop Point Reached");
         isDone = true;
         yaySound.Play();
+        awardStar.SetActive(true);
     }
 
     private void FrameReady(VideoPlayer source, long frameIdx)
@@ -134,6 +140,8 @@ public class MasterVideoController : MonoBehaviour
     private void Started(VideoPlayer source)
     {
         Debug.Log("Video Player Started");
+        awardStar.SetActive(false);
+        PlayerPrefs.SetInt("stars", PlayerPrefs.GetInt("stars") + 1);
     }
 
     private void Start()
