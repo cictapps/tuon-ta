@@ -236,6 +236,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VideoPlayers/VideoPlayerVideoPlayerKunehoBao.unity
     guid: 8b14ff156ba481141b67940637e9d5ba
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerSapat.unity
+    guid: 4a91bcf0c6714064a9845847b6ce5d8f
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}
