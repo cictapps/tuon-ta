@@ -224,6 +224,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VideoPlayers/VideoPlayerPuluy-an.unity
     guid: 83f8ebb5a051e0848aaef330d3aa99f4
+  - enabled: 1
+    path: Assets/Assets/Scenes/paktakon_MenuScene.unity
+    guid: fa7a430b0865a294fa20360d7cf2fd47
+  - enabled: 1
+    path: Assets/Assets/Scenes/paktakon_LevelScene.unity
+    guid: 8035676278443c2439d815aff29ac184
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}

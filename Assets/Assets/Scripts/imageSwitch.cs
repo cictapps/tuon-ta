@@ -9,11 +9,28 @@ public class imageSwitch : MonoBehaviour
     public GameObject imagePlaceholder;
     public Image imageComponent;
 
-    private void Start()
+    private void Awake()
     {
         image = GameObject.FindGameObjectWithTag("Image");
         imagePlaceholder = GameObject.FindGameObjectWithTag("Image Placeholder");
-        imageComponent = image.GetComponent<Image>();
+        Component[] components = image.GetComponents(typeof(Component));
+        foreach (Component component in components)
+        {
+             Debug.Log(component.GetType());
+            if (component.GetType() == typeof(UnityEngine.UI.Image))
+            {
+               
+                imageComponent = component as Image;
+            }
+        }
+        
+       // imageComponent = image.GetComponent<Image>();
+        Debug.Log(imageComponent);
+    }
+
+    private void Start()
+    {
+
     }
 
     public void ifCorrectAns()
