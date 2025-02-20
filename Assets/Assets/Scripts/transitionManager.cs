@@ -11,19 +11,19 @@ public class transitionManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            StartCoroutine(playWait(1));
+            StartCoroutine(playWait("paktakon_MenuScene"));
         }
         else
         {
-            StartCoroutine(playWait(0));
+            StartCoroutine(playWait("paktakon_LevelScene"));
         }
 
     }
 
-    private IEnumerator playWait(int levelIndex)
+    private IEnumerator playWait(string levelName)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(1.2f);
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene(levelName);
     }
 }
