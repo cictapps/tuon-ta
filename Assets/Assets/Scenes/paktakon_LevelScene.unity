@@ -528,7 +528,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1010269888}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -912,8 +912,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 118822382}
+  imagePlaceholder: {fileID: 1444925883}
 --- !u!1 &52177333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,7 +1319,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 66145416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &66145416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1589,7 +1601,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1616276765}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -1758,7 +1770,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 96808975}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &96808975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2090,7 +2114,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 113249679}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &113249679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,7 +2571,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 132522379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &132522379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4093,7 +4141,6 @@ GameObject:
   - component: {fileID: 226825881}
   - component: {fileID: 226825884}
   - component: {fileID: 226825883}
-  - component: {fileID: 226825882}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -4120,20 +4167,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &226825882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226825880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &226825883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4183,7 +4216,6 @@ GameObject:
   - component: {fileID: 241046777}
   - component: {fileID: 241046780}
   - component: {fileID: 241046779}
-  - component: {fileID: 241046778}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -4210,20 +4242,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &241046778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241046776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &241046779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4743,7 +4761,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 241046778}
+      - m_Target: {fileID: 1118560236}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -5374,7 +5392,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282450847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &282450847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5572,7 +5602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 286293795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &286293795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7217,8 +7259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 2120394961}
+  imagePlaceholder: {fileID: 336953986}
 --- !u!1 &397388566
 GameObject:
   m_ObjectHideFlags: 0
@@ -7842,7 +7884,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 407844688}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &407844688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7963,7 +8017,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 409047595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &409047595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8716,7 +8782,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 639818967}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -8848,7 +8914,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 453806068}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &453806068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9105,7 +9183,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 470473358}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &470473358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9269,8 +9359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1554810813}
+  imagePlaceholder: {fileID: 1534387460}
 --- !u!1 &477800781
 GameObject:
   m_ObjectHideFlags: 0
@@ -9321,8 +9411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1093492484}
+  imagePlaceholder: {fileID: 1140094168}
 --- !u!1 &482765805
 GameObject:
   m_ObjectHideFlags: 0
@@ -9831,7 +9921,6 @@ GameObject:
   - component: {fileID: 506674320}
   - component: {fileID: 506674323}
   - component: {fileID: 506674322}
-  - component: {fileID: 506674321}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -9858,20 +9947,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &506674321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506674319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &506674322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10978,8 +11053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 278730000}
+  imagePlaceholder: {fileID: 293450686}
 --- !u!1 &557289364
 GameObject:
   m_ObjectHideFlags: 0
@@ -11406,7 +11481,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 572828006}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &572828006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11836,7 +11923,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 589790833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &589790833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12032,7 +12131,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594348368}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &594348368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12196,8 +12307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1605257939}
+  imagePlaceholder: {fileID: 1921860684}
 --- !u!1 &639818965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12248,8 +12359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1583122322}
+  imagePlaceholder: {fileID: 1269190762}
 --- !u!1 &646117728
 GameObject:
   m_ObjectHideFlags: 0
@@ -13056,7 +13167,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 685674833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &685674833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13388,7 +13511,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 705083517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &705083517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13477,8 +13612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 226825880}
+  imagePlaceholder: {fileID: 1634074384}
 --- !u!1 &710293646
 GameObject:
   m_ObjectHideFlags: 0
@@ -13529,8 +13664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 504222000}
+  imagePlaceholder: {fileID: 1782792909}
 --- !u!1 &710411980
 GameObject:
   m_ObjectHideFlags: 0
@@ -13922,7 +14057,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 725538576}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &725538576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14618,7 +14765,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 763663397}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &763663397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14814,7 +14973,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 774432149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &774432149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15411,7 +15582,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1829971177}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -15644,7 +15815,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -15660,7 +15831,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 127.1226, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -15793,7 +15964,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 826475731}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &826475731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15989,7 +16172,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 852147907}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &852147907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16668,7 +16863,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 868040119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &868040119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16757,8 +16964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1123835423}
+  imagePlaceholder: {fileID: 506674319}
 --- !u!1 &886433276
 GameObject:
   m_ObjectHideFlags: 0
@@ -17222,8 +17429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 904318303}
+  imagePlaceholder: {fileID: 1837659287}
 --- !u!1 &909746804
 GameObject:
   m_ObjectHideFlags: 0
@@ -17381,7 +17588,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 910172068}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &910172068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17877,7 +18096,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1093492486}
+      - m_Target: {fileID: 477800783}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -18150,8 +18369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1172799355}
+  imagePlaceholder: {fileID: 1220432790}
 --- !u!1 &954890377
 GameObject:
   m_ObjectHideFlags: 0
@@ -18758,6 +18977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 993685644}
   - component: {fileID: 993685645}
+  - component: {fileID: 993685646}
   m_Layer: 5
   m_Name: Level (28)
   m_TagString: Untagged
@@ -18780,6 +19000,7 @@ RectTransform:
   - {fileID: 509508113}
   - {fileID: 1808410551}
   - {fileID: 819663215}
+  - {fileID: 1721434211}
   m_Father: {fileID: 195515206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -18800,6 +19021,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1911104685}
+--- !u!114 &993685646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993685643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e2bfb7b74243b40a3f25ce31d6470d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &994758438
 GameObject:
   m_ObjectHideFlags: 0
@@ -23774,7 +24007,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1001226526}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1001226526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24070,8 +24315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 691358770}
+  imagePlaceholder: {fileID: 703381319}
 --- !u!1 &1011990594
 GameObject:
   m_ObjectHideFlags: 0
@@ -24650,9 +24895,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 943575035}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
-        m_MethodName: ifCorrectAns
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24795,7 +25040,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 506674321}
+      - m_Target: {fileID: 879015397}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -25002,7 +25247,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1071101411}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1071101411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25212,7 +25469,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1476656184}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -25312,8 +25569,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1721802973}
+  imagePlaceholder: {fileID: 1471032510}
 --- !u!1 &1085760413
 GameObject:
   m_ObjectHideFlags: 0
@@ -25479,7 +25736,6 @@ GameObject:
   - component: {fileID: 1093492485}
   - component: {fileID: 1093492488}
   - component: {fileID: 1093492487}
-  - component: {fileID: 1093492486}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -25506,20 +25762,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1093492486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093492484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &1093492487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25677,7 +25919,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1096352461}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1096352461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25811,7 +26065,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 556645697}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -25911,8 +26165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 241046776}
+  imagePlaceholder: {fileID: 1890658348}
 --- !u!1 &1123835423
 GameObject:
   m_ObjectHideFlags: 0
@@ -27023,8 +27277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1717242931}
+  imagePlaceholder: {fileID: 1355188482}
 --- !u!1 &1154808777
 GameObject:
   m_ObjectHideFlags: 0
@@ -27036,7 +27290,6 @@ GameObject:
   - component: {fileID: 1154808778}
   - component: {fileID: 1154808781}
   - component: {fileID: 1154808780}
-  - component: {fileID: 1154808779}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -27063,20 +27316,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1154808779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154808777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &1154808780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27777,7 +28016,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 906092131}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -27946,7 +28185,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1217931280}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1217931280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28465,7 +28716,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1594495429}
+      - m_Target: {fileID: 1618027122}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -28610,7 +28861,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2013477653}
+      - m_Target: {fileID: 1655062888}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -28742,7 +28993,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1260890286}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1260890286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29518,7 +29781,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1298630080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1298630080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29847,6 +30122,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302939067}
   m_CullTransparentMesh: 1
+--- !u!1 &1308863592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308863593}
+  - component: {fileID: 1308863595}
+  - component: {fileID: 1308863594}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1308863593
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308863592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 21.8694}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1721434211}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -9.750002, y: 0.8800001}
+  m_SizeDelta: {x: 25.2205, y: 27.7857}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1308863594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308863592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: +1
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f710fbaa11614b0db0b868c75039949, type: 2}
+  m_sharedMaterial: {fileID: 7908499825950019370, guid: 8f710fbaa11614b0db0b868c75039949, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278223081
+  m_fontColor: {r: 0.9137255, g: 0.501315, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 62.1
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0.24688339, y: -0.0691166, z: 0.3057518, w: 0.38308764}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1308863595
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308863592}
+  m_CullTransparentMesh: 1
 --- !u!1 &1312439096
 GameObject:
   m_ObjectHideFlags: 0
@@ -29942,7 +30353,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2120394963}
+      - m_Target: {fileID: 396513644}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -30074,7 +30485,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1313824260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1313824260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31128,8 +31551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1154808777}
+  imagePlaceholder: {fileID: 1152343067}
 --- !u!1 &1384234557
 GameObject:
   m_ObjectHideFlags: 0
@@ -31700,7 +32123,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 226825882}
+      - m_Target: {fileID: 708021260}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -31961,7 +32384,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1429619111}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1429619111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32223,7 +32658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1440777018}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1440777018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32480,7 +32927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1454069163}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1454069163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33204,8 +33663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 379270264}
+  imagePlaceholder: {fileID: 972412835}
 --- !u!1 &1480653570
 GameObject:
   m_ObjectHideFlags: 0
@@ -33792,7 +34251,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1493463109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1493463109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34151,7 +34622,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1154808779}
+      - m_Target: {fileID: 1378394705}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -34448,7 +34919,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1717242933}
+      - m_Target: {fileID: 1153920667}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -35894,7 +36365,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1564680273}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1564680273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36015,7 +36498,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1564711330}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1564711330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36211,7 +36706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1581058958}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1581058958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41265,7 +41772,6 @@ GameObject:
   - component: {fileID: 1594495428}
   - component: {fileID: 1594495431}
   - component: {fileID: 1594495430}
-  - component: {fileID: 1594495429}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -41292,20 +41798,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1594495429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594495427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &1594495430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41477,7 +41969,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1735138797}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -41833,7 +42325,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1084140734}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -41978,7 +42470,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 477797949}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -42292,8 +42784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 54023398}
+  imagePlaceholder: {fileID: 507136125}
 --- !u!222 &1616276766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42352,8 +42844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1594495427}
+  imagePlaceholder: {fileID: 135454366}
 --- !u!1 &1619287179
 GameObject:
   m_ObjectHideFlags: 0
@@ -42404,8 +42896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 12037860}
+  imagePlaceholder: {fileID: 493205498}
 --- !u!1 &1624904821
 GameObject:
   m_ObjectHideFlags: 0
@@ -43388,7 +43880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1653664619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1653664619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43477,8 +43981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 2013477651}
+  imagePlaceholder: {fileID: 156773240}
 --- !u!1 &1657860475
 GameObject:
   m_ObjectHideFlags: 0
@@ -43712,6 +44216,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660830316}
+  m_CullTransparentMesh: 1
+--- !u!1 &1662122118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662122119}
+  - component: {fileID: 1662122121}
+  - component: {fileID: 1662122120}
+  m_Layer: 5
+  m_Name: Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1662122119
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662122118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 62.0732}
+  m_LocalScale: {x: 0.010420002, y: 0.010420002, z: 0.010420002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1721434211}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.86, y: 0.7}
+  m_SizeDelta: {x: 146.2501, y: 146.2501}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1662122120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662122118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6cd2e4f7622ab468686a5d750551e633, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1662122121
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662122118}
   m_CullTransparentMesh: 1
 --- !u!1 &1663459240
 GameObject:
@@ -44258,7 +44837,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1728197931}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -44637,7 +45216,6 @@ GameObject:
   - component: {fileID: 1717242932}
   - component: {fileID: 1717242935}
   - component: {fileID: 1717242934}
-  - component: {fileID: 1717242933}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -44664,20 +45242,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1717242933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717242931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &1717242934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44934,7 +45498,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1719856272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1719856272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45055,7 +45631,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1721296527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394478}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1721296527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45094,6 +45682,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721296524}
   m_CullTransparentMesh: 1
+--- !u!1 &1721434210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721434211}
+  m_Layer: 0
+  m_Name: Award
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721434211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721434210}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 836.00006, y: 37, z: -8055.9126}
+  m_LocalScale: {x: 92.8, y: 92.8, z: 92.8}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1662122119}
+  - {fileID: 1308863593}
+  m_Father: {fileID: 993685644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721802973
 GameObject:
   m_ObjectHideFlags: 0
@@ -45219,8 +45840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1389166012}
+  imagePlaceholder: {fileID: 198880172}
 --- !u!1 &1733665219
 GameObject:
   m_ObjectHideFlags: 0
@@ -45303,7 +45924,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1733665222}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1733665222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45392,8 +46025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 386584999}
+  imagePlaceholder: {fileID: 1126832514}
 --- !u!1 &1739430882
 GameObject:
   m_ObjectHideFlags: 0
@@ -45662,7 +46295,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 48401700}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -45985,7 +46618,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1775360323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1775360323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46106,7 +46751,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1775711656}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1775711656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46900,8 +47557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 2072445163}
+  imagePlaceholder: {fileID: 1657860475}
 --- !u!1 &1834266500
 GameObject:
   m_ObjectHideFlags: 0
@@ -47256,7 +47913,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1839097699}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1839097699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47377,7 +48046,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1842689832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1842689832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47612,7 +48293,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1865621134}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1865621134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47981,7 +48674,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1873831165}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1873831165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48238,7 +48943,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1886159525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1886159525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49313,7 +50030,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0315a80769ce43740902ebf9d56c2e05, type: 3}
   m_Resource: {fileID: 8300000, guid: 0315a80769ce43740902ebf9d56c2e05, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -49550,9 +50267,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 610684838}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
-        m_MethodName: ifCorrectAns
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -49682,7 +50399,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1917868475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1917868475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50092,7 +50821,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1940932710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1940932710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50400,7 +51141,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 710293648}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -50668,7 +51409,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1958287191}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1958287191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50802,7 +51555,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2026650095}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -50971,7 +51724,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1971687762}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1971687762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51520,7 +52285,6 @@ GameObject:
   - component: {fileID: 2013477652}
   - component: {fileID: 2013477655}
   - component: {fileID: 2013477654}
-  - component: {fileID: 2013477653}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -51547,20 +52311,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2013477653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013477651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &2013477654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51817,7 +52567,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2026604006}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2026604006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51906,8 +52668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
+  image: {fileID: 1509368864}
+  imagePlaceholder: {fileID: 1559099241}
 --- !u!1 &2028052723
 GameObject:
   m_ObjectHideFlags: 0
@@ -52141,7 +52903,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2035647244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2035647244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53160,7 +53934,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1619287181}
         m_TargetAssemblyTypeName: imageSwitch, Assembly-CSharp
         m_MethodName: ifCorrectAns
         m_Mode: 1
@@ -54029,7 +54803,6 @@ GameObject:
   - component: {fileID: 2120394962}
   - component: {fileID: 2120394965}
   - component: {fileID: 2120394964}
-  - component: {fileID: 2120394963}
   m_Layer: 5
   m_Name: Image
   m_TagString: Image
@@ -54056,20 +54829,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 490, y: 490}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2120394963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120394961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  imagePlaceholder: {fileID: 0}
 --- !u!114 &2120394964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54363,7 +55122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2139199436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908394479}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2139199436
 MonoBehaviour:
   m_ObjectHideFlags: 0
