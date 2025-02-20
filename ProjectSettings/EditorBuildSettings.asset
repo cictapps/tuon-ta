@@ -230,6 +230,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/paktakon_LevelScene.unity
     guid: 8035676278443c2439d815aff29ac184
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerVideoPlayerSubayKapareho.unity
+    guid: 276566b082b81ed4c973ee349eac7fa8
+  - enabled: 1
+    path: Assets/VideoPlayers/VideoPlayerVideoPlayerKunehoBao.unity
+    guid: 8b14ff156ba481141b67940637e9d5ba
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 95d33c3cb1b2c6316b6e4ffd91eeb6e8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 63e89068324906f3cb35ce5040a94cc7, type: 2}
