@@ -1980,7 +1980,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
+  m_fontSize: 72
   m_fontSizeBase: 68
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3615,7 +3615,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3739,7 +3739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Isa ka hari may bayu nga nanarisari.
+  m_text: 'Isa ka hari, may bayu nga nanarisari.
 
 
 '
@@ -5949,7 +5949,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
+  m_fontSize: 72
   m_fontSizeBase: 68
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5971,7 +5971,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -16966,8 +16966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e9b47b671fa2f40ba311a5e2c3a696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 1123835423}
-  imagePlaceholder: {fileID: 506674319}
+  image: {fileID: 506674319}
+  imagePlaceholder: {fileID: 1123835423}
 --- !u!1 &886433276
 GameObject:
   m_ObjectHideFlags: 0
@@ -18570,7 +18570,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
+  m_fontSize: 72
   m_fontSizeBase: 68
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18592,7 +18592,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -35164,7 +35164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lamesa
+  m_text: Ido
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de38a82d932079347b9639b5f459f4c0, type: 2}
   m_sharedMaterial: {fileID: 8065414800641822250, guid: de38a82d932079347b9639b5f459f4c0, type: 2}
@@ -44383,7 +44383,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 68.2
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -44405,7 +44405,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -45339,7 +45339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bangko
+  m_text: Salakyan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de38a82d932079347b9639b5f459f4c0, type: 2}
   m_sharedMaterial: {fileID: 8065414800641822250, guid: de38a82d932079347b9639b5f459f4c0, type: 2}
@@ -54330,7 +54330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Panit berde, tul-an itum, ang sulod pula
+  m_text: Panit berde, tul-an itum, ang sulod pula.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de38a82d932079347b9639b5f459f4c0, type: 2}
   m_sharedMaterial: {fileID: 8065414800641822250, guid: de38a82d932079347b9639b5f459f4c0, type: 2}

@@ -15,5 +15,6 @@ MonoBehaviour:
   letterQuestion: Cc
   phonicQuestion: /c/
   firstOptionImage: {fileID: 21300000, guid: 995f6b7780022c943a3fd52796563c7d, type: 3}
-  secondOptionImage: {fileID: 21300000, guid: bf001c1fc65110d46bead400862eb8e2, type: 3}
+  secondOptionImage: {fileID: 21300000, guid: 0b6384dbe2849fb479d73c0480ffbb5f, type: 3}
   correctOptionIndex: 0
+  feedbackImage: {fileID: 0}

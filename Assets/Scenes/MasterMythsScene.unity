@@ -542,7 +542,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardName
-      value: Ang Ginsuguran Sang Kalibutan
+      value: Ang Ginsuguran sang Kalibutan
       objectReference: {fileID: 0}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail

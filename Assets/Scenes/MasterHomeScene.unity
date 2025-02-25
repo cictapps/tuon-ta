@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86.04001, y: -74}
+  m_AnchoredPosition: {x: -86.03998, y: -74}
   m_SizeDelta: {x: 120.28, y: 120.28003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &86486754
@@ -569,7 +569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardName
-      value: Malip-ot nga Istorya
+      value: Mga Malip-ot nga Istorya
       objectReference: {fileID: 0}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: QuestionV
   m_EditorClassIdentifier: 
   letterQuestion: Vv
-  phonicQuestion: Ww
+  phonicQuestion: /v/
   firstOptionImage: {fileID: 21300000, guid: ba13226338fbb1b4f92cb8721ee8ee86, type: 3}
   secondOptionImage: {fileID: 21300000, guid: f391df33701ce124ea47a46f67c4a585, type: 3}
   correctOptionIndex: 0
+  feedbackImage: {fileID: 0}

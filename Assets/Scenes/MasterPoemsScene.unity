@@ -232,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -332.63995, y: -66.68999}
+  m_AnchoredPosition: {x: -332.63995, y: -66.69}
   m_SizeDelta: {x: 367.7, y: 89.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &282123685
@@ -2138,7 +2138,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardName
-      value: Sin-o ang Nakakita sang Hangin
+      value: Sin-o ang Nakakita sang Hangin?
       objectReference: {fileID: 0}
     - target: {fileID: 402422775371711605, guid: 80548e9e5903bb349a884e29969fc1fb, type: 3}
       propertyPath: cardThumbnail
