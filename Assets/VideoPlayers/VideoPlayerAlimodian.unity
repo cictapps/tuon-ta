@@ -513,6 +513,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1376725344387656588, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 836.0002
+      objectReference: {fileID: 0}
     - target: {fileID: 2324880857750186896, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -592,6 +596,14 @@ PrefabInstance:
     - target: {fileID: 5456968665295469658, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: 'm_DirectAudioMutes.Array.data[0]'
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591730835363159528, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1145.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591730835363159528, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.031555176
       objectReference: {fileID: 0}
     - target: {fileID: 6034597429277136525, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_Pivot.x
@@ -689,6 +701,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6290138751906932289, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 836
+      objectReference: {fileID: 0}
     - target: {fileID: 6649890696215684178, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_Texture
       value: 
@@ -736,6 +752,14 @@ PrefabInstance:
     - target: {fileID: 8048263373581697288, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8136289925269561943, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 836.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166734482624503934, guid: c5b3f4374072e4135b93e0d013bfca66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 836.00006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
