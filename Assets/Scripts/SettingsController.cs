@@ -1,15 +1,16 @@
 using UnityEngine;
 using DG.Tweening;
-
+ 
 public class SettingsController : MonoBehaviour
 {
     [SerializeField] private RectTransform settingsGroup;
+
 
     int toggleIsOn = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        settingsGroup.DOMove(new Vector2(0, -522), 0.2f);
+        settingsGroup.DOMove(new Vector2(0, -522), 0.2f);    
     }
 
     // Update is called once per frame
